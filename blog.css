@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgb(0, 0, 95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.logo span {
+    color: cornflowerblue;
+}
+
+.navigation a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 25px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    background: cornflowerblue;
+    border: 2px solid cornflowerblue;
+    border-radius:10px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: .5s;
+}
+
+.navigation a:hover {
+    background: transparent;
+    color: white;
+    border-color: cornflowerblue;
+    box-shadow: 0 0 10px white;
+}
+
+#active {
+    background: transparent;
+    color: white;
+    border-color: cornflowerblue;
+    box-shadow: 0 0 10px white;
+}
+
+.blog {
+    height: auto;
+    background: rgb(0, 0, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    width: 90%;
+    margin: auto;
+}
+
+.head {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.head h1 {
+    padding-top: 70px;
+    padding-bottom: 15pxpx;
+    font-size: 50px;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.card {
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 95);
+    background-color: transparent;
+    color: white;
+    height: 80vh;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.card h4 {
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 0 0 20px;
+}
+
+.f_bot {
+    background-color: navy;
+    padding: 20px;
+    text-align: center;
+}
+
+.f_bot p {
+    color: white;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0 5px;
+}
